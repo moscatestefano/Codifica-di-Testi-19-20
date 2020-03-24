@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Questo è un documento XML
+per la prova del 23/03/2020
+Filename: annidati.xml
+Author: Stefano Moscatelli
+Date: 23/03/2020 -->
+
+<father>
+    <son1> In questi due tag si concretizzano
+    <son2> due elementi XML non opportunamente annidati
+    </son1>
+    </son2>
+    <son3>
+    Questo è un tag opportunamente chiuso.
+</father>
+
+<!--annidati.xml:11: parser error : Opening and ending tag mismatch: son2 line 10 and son1
+    </son1>
+           ^
+annidati.xml:12: parser error : Opening and ending tag mismatch: son1 line 9 and son2
+    </son2>
+           ^
+annidati.xml:15: parser error : Opening and ending tag mismatch: son3 line 13 and father
+</father>
+         ^
+annidati.xml:17: parser error : Premature end of data in tag father line 8
+-->
