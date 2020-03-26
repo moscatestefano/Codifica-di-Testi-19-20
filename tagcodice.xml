@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- 
+    nome: Stefano Moscatelli
+    matricola: 603737
+    esercizio del 26.03.2020
+    -->
+
+<root>
+    <elementopadre>
+    Questo elemento contiene testo e PCDATA.
+        <elementofiglio>
+            <![CDATA[<h1>Questo tag non chiuso< h1>
+            non verrà contato come errore dal parser
+            non essendo abilitata la lettura di PCDATA
+            all'interno di questa sezione]]>
+        </elementofiglio>
+    Qui si chiude l'elemento padre &amp; figlio
+    </elementopadre>
+</root>
