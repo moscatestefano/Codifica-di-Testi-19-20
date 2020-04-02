@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "./prova.dtd" >
+
+<!--
+    studente: Stefano Moscatelli
+    matricola: 603737
+    prova del 02-04-2020
+-->
+
+<TEI>
+    <header>
+    Del testo.
+    </header>
+    <facsimile source="canaria">
+    </facsimile>
+    <testo id="a1">
+        <seg>
+        Elemento opzionale.
+        </seg>
+    </testo>
+</TEI>
