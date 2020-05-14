@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<!-- Studente: Stefano Moscatelli
+matricola: 603737
+esercizio sui pointer e liste del 07/05/2020 -->
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edizione digitale del diario di SM</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>UNIPI</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Il diario di SM</title>
+                    <author><name>Anonimo</name></author>
+                </bibl>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>Oggi <rs type="person">Debora</rs> mi ha mandato a fare la spesa.
+                Alle <time when="7.00">sette di stamattina</time>
+                ha lasciato una nota<note n="1" resp="sm">La nota era scritta su un post-it.</note> su cui ha scritto:</p>
+                <p>
+                <list type="simple">
+                <head>Lista della spesa:</head>
+                <item><num>3</num> uova</item>
+                <item>zucchero</item>
+                <item>farina</item>
+                <item><term rend="italic">topinambur</term></item>
+                <item>medicine per <name type="animal">Pluto</name></item>
+                </list>
+                </p>
+                <p>Non sapevo cosa fosse il topinambur, per cui ho dovuto cercare un dizionario. Il termine si riferisce a <gloss><quote>una pianta usata come ortaggio della famiglia delle Asteraceae</quote></gloss> secondo <ref target="https://wikipedia.it/">Wikipedia</ref>.</p>
+            </div>
+            <div>
+                <p>Non sono riuscito a trovare il topinambur <ptr target="#giorno1" />.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
