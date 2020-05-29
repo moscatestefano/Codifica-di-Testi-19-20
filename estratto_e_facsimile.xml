@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Stefano Moscatelli
+matr. 603737
+codifica di parte della lettera progetto d'esame
+e prova di sezionamento su file immagine
+Mancano molte parti, è da intendersi come bozza -->
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a Francesco Saverio del Carretto, in Puteaux, agosto 1835</title>
+				<author ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>transcription by</resp>
+					<name ref="#GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Digital Edition
+					<date when="2020-05">May 2020</date>
+				</edition>
+				<respStmt>
+					<resp>encoded by</resp>
+					<name ref="#SM">Stefano Moscatelli</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+                <publisher /> <!-- da riempire -->
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl /> <!-- aggiungere bibliografia-->
+				<msDesc>
+				<msIdentifier>
+				</msIdentifier>
+				</msDesc> <!-- aggiungere info sulla lettera-->
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc> <!-- aggiungere profilo -->
+		</profileDesc>
+	</teiHeader>
+	<!-- sezione delle prime nove righe della lettera -->
+	<facsimile>
+		<surface n="1" xml:id="LL1.34_folio_1f">	
+			<graphic url="LL1.34.I_0001.jpg" width='3200px' height='2664px'/>
+			<zone ulx="935" uly="115" lrx="2440" lry="265" rendition="Line" xml:id="LL1.34.I_line_1f_01"/>
+			<zone ulx="935" uly="389" lrx="2440" lry="544" rendition="Line" xml:id="LL1.34.I_line_1f_02"/>
+			<zone ulx="935" uly="509" lrx="2440" lry="637" rendition="Line" xml:id="LL1.34.I_line_1f_03"/>
+			<zone ulx="935" uly="607" lrx="2440" lry="733" rendition="Line" xml:id="LL1.34.I_line_1f_04"/>
+			<zone ulx="935" uly="701" lrx="2440" lry="841" rendition="Line" xml:id="LL1.34.I_line_1f_05"/>
+			<zone ulx="935" uly="789" lrx="2440" lry="921" rendition="Line" xml:id="LL1.34.I_line_1f_06"/>
+			<zone ulx="935" uly="889" lrx="2440" lry="1017" rendition="Line" xml:id="LL1.34.I_line_1f_07"/>
+			<zone ulx="935" uly="999" lrx="2440" lry="1131" rendition="Line" xml:id="LL1.34.I_line_1f_08"/>
+			<zone ulx="935" uly="1121" lrx="2440" lry="1243" rendition="Line" xml:id="LL1.34.I_line_1f_09"/>
+		</surface>
+	</facsimile>
+
+	<text type="letter" xml:id="XXXXXX" subtype="manuscript" n="LL1.4">
+        <!-- aggiungere i dati paratestuali -->
+		<body xml:lang="it">
+			<div type="recto">
+				<div type="opener"><dateline><placeName ref="TEI-ListPlace.xml#Paris">Parigi</placeName>, <date when="1831-05">agosto 1835</date>.</dateline></div>
+				<!--altri fenomeni?-->
+				<pb n="1" xml:id="LL1.34.I" facs="#LL1.34.I"/>
+				<div type="letter-body" n="t_01">
+					<ab type="parag" n="ab_01">
+						<s type="sentence" n="s_01"><ptr target="#LL1_4_note1"/>
+							<lb xml:id="LL1.34.I_01" n="1" facs="#LL1.34.I_line_1f_01"/>
+				        <persName ref="TEI-ListPerson.xml#XYZ" role="XYZ">Eccellenza</persName> <!--rend centrato --><!-- manca ancora la NE, provvederò a crearla -->
+						</s>
+						<s type="sentence" n="s_02">
+							<lb xml:id="LL1.34.I_02" n="2" facs="#LL1.34.I_line_1f_02"/>						
+							La bontà con la quale si degnò <w>ricever
+							<lb xml:id="LL1.34.I_03" n="3" facs="LL1.34.I_line_1f_03"/>
+							mi</w> l'ultima volta che io fui in <placeName ref="TEI-ListPlace.xml#NA">Napoli</placeName>,
+							<lb xml:id="LL1.34.I_04" n="4" facs="LL1.34.I_line_1f_04"/>
+							mi dà <choice><sic>coragio</sic><reg>coraggio</reg></choice> di pregarla acciò si voglia
+							<lb xml:id="LL1.34.I_05" n="5" facs="LL1.34.I_line_1f_05"/>
+							interessarsi in <choice><sic>un'affare</sic><reg>un affare</reg></choice> che mi riguarda.
+						</s>
+						<s type="sentence" n="s_03">
+							<lb xml:id="LL1.34.I_06" n="6" facs="LL1.34.I_line_1f_06"/>
+							In Italia si fà una <hi rend="underline">Pirateria</hi> di tutto ciò che
+							<lb xml:id="LL1.34.I_07" n="7" facs="LL1.34.I_line_1f_07"/>
+							dovrebbe essere più rispettato e <choice><sic>xxx</sic><corr>sostenuto</corr></choice> dalle leggi
+							<lb xml:id="LL1.34.I_08" n="8" facs="LL1.34.I_line_1f_08"/>
+							come lo è in Francia ed in Inghilterra
+							<lb xml:id="LL1.34.I_09" n="9" facs="LL1.34.I_line_1f_09"/>
+							voglio dire, <hi rend="underline">della proprietà d'Autore</hi>.
+						</s>
+					</ab>
+				</div>
+			</div>
+		</body>
+
+		<back>
+			<div type="notes">
+				<!--inserire note-->
+			</div>
+
+			<div type="bibliography">
+					<!--inserire bibliografia-->
+			</div>
+		</back>
+	</text>
+</TEI>
